@@ -1,0 +1,28 @@
+body {
+    background-image: url(https://www.finetoshine.com/wp-content/uploads/2020/10/Simplicity-Dark-Black-Amoled-HD-Wallpaper-Realme-6i-%E2%8B%86-Traxzee.jpg);
+    /* background-image: url(https://w0.peakpx.com/wallpaper/793/587/HD-wallpaper-realme-ui-realme.jpg); */
+    background-size: 100%;
+    background-position: center;
+}
+
+.navbar-item img {
+    position: absolute;
+    width: 18vw;
+    height: 20vh;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+.navbar-menu {
+    margin-top: 3vh;
+}
+
+.addcontact {
+    width: 20vw;
+    margin-left: 37vw;
+    margin-bottom: 25vh;
+}
+
+.h3title {
+    margin-left: 20vw;
+}

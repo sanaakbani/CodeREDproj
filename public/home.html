@@ -14,6 +14,8 @@
     <script defer src="/__/firebase/8.3.1/firebase-database.js"></script>
     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
     <script defer src="js/home.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="home.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
@@ -25,9 +27,7 @@
             <nav class="navbar">
                 <div class="container">
                     <div class="navbar-brand">
-                        <a class="navbar-item" href="../">
-                            <img src="https://user-images.githubusercontent.com/81789386/135731699-9da11dd2-b520-41fb-808e-9d86e0ce21fe.png" alt="Logo">
-                        </a>
+                        
                         <span class="navbar-burger burger" data-target="navbarMenu">
                             <span></span>
                             <span></span>
@@ -37,17 +37,27 @@
                     <div id="navbarMenu" class="navbar-menu">
                         <div class="navbar-end">
                             <span class="navbar-item">
-                                <a class="button is-white is-outlined" href="#">
+                                <a class="button is-white is-outlined" href="home.html">
+                                    <span>Send Help</span>
+                                </a>
+                            </span>
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="contacts.html">
                                     <span>Add Contacts</span>
                                 </a>
                             </span>
                             <span class="navbar-item">
-                                <a class="button is-white is-outlined" href="#">
+                                <a class="button is-white is-outlined" href="location.html">
                                     <span>Location Services</span>
                                 </a>
                             </span>
                             <span class="navbar-item">
-                                <a class="button is-white is-outlined" href="#">
+                                <a class="button is-white is-outlined" href="">
+                                    <span>Speech to Text Recognition</span>
+                                </a>
+                            </span>
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="info.html">
                                     <span>More Information</span>
                                 </a>
                             </span>
@@ -67,7 +77,7 @@
                     <div class="column is-6 is-offset-3">
                         <h1 class="title"></h1> 
                         <h2 class="title">
-                            <img src = "https://www.clipartmax.com/png/middle/470-4704082_glossy-sos-circle-button-clip-art-sos-button-clip-art.png" onclick="goPython()">
+                            <img src = "http://www.chrisonea.com/wp/wp-content/uploads/2020/04/59f870993cec115efb36234b.png" onclick="goPython()">
                         </h2>
                     </div>
                 </div>
@@ -75,14 +85,6 @@
 
     </section>
     <script>
-        function goPython(){
-            $.ajax({
-              url: "py/home.py",
-             context: document.body
-            }).done(function() {
-             console.log('finished python script');;
-            });
-        }
     </script>
     <script async type="text/javascript" src="../js/bulma.js"></script>
   </body>

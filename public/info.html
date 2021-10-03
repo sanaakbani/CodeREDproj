@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ConocoSafe</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="css/info.css">
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/8.3.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/8.3.1/firebase-auth.js"></script>
+    <script defer src="/__/firebase/8.3.1/firebase-database.js"></script>
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+    <script defer src="py/contacts.py"></script>
+    <section class="hero is-fullheight">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <span class="navbar-burger burger" data-target="navbarMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenu" class="navbar-menu">
+                        <div class="navbar-end">
+                        <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="home.html">
+                                    <span>Send Help</span>
+                                </a>
+                            </span>
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="contacts.html">
+                                    <span>Add Contacts</span>
+                                </a>
+                            </span>
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="location.html">
+                                    <span>Location Services</span>
+                                </a>
+                            </span>
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="">
+                                    <span>Speech to Text Recognition</span>
+                                </a>
+                            </span>
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="info.html">
+                                    <span>More Information</span>
+                                </a>
+                            </span>
+                            <!-- <span class="navbar-item">
+                                <a class="button is-white is-outlined is-6" href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/landing.html">
+                                    <span>View Source</span>
+                                </a> -->
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+  </head>
+  <body>
+      <div class="hero-body is-outlined is-6">
+        <h1>Workplace Safety</h1>
+        <ul>
+            <li>- Receive workplace safety and health training in a language you understand.</li>
+            <li>- Work on machines that are safe.</li>
+            <li>- Receive required safety equipment, such as gloves or a harness and lifeline for falls.</li>
+            <li>- Be protected from toxic chemicals.</li>
+            <li>- Request an OSHA inspection, and speak to the inspector.</li>
+            <li>- Report an injury or illness, and get copies of your medical records.</li>
+            <li>- Review records of work-related injuries and illnesses.</li>
+            <li>- See results of tests taken to find workplace hazards.</li>
+            <li>For more information regarding OSHA Worker Rights and Protections, please visit <a href="https://www.osha.gov/workers">OSHA's Website</a>
+          </ul>
+      </div>
+    </section>
+    <script>
+    </script>
+    <script async type="text/javascript" src="../js/bulma.js"></script>
+     <script type="module" src="js/contacts.js"></script>
+  </body>
+</html>

@@ -13,3 +13,16 @@ window.onload = (event) => {
   });
 };
 
+function goPython() {
+  Email.send({
+    Host: "smtp.gmail.com",
+    Username : "conocosafe101@gmail.com",
+    Password : "conocosafe101",
+    To : '8327637111@tmomail.net',
+    From : "conocosafe101@gmail.com",
+    Subject : "ConocoSafe - Assistance is needed!",
+    Body: "",
+    }).then(
+      message => alert("Help has been successfully requested!")
+    );
+}
